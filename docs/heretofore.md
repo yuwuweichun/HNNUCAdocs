@@ -8,14 +8,14 @@
 最后，但愿HNNUCAdocs可以在计协内部一届一届传下去...
 
 ::: warning
-有人喜欢阅读文档，有人喜欢跟着视频学习......<br>
-因此，HNNUCAdocs中提到的相关文档、书目、视频均只是推荐，仅供参考。<br>
-愿HNNUCAers都能找到合自己胃口的学习资源及学习方式。
+有人喜欢阅读文档，有人喜欢跟着视频学习......因此，HNNUCAdocs中提到的相关文档、书目、视频均只是推荐，仅供参考。愿HNNUCAers都能找到合自己胃口的学习资源及学习方式。
 :::
-## 关于Web开发
+## 关于学习Web开发
+你也许可以先从这里开始：[MDN中文文档](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web) Web开发文档
 
-[MDN中文文档](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web) Web开发文档
-<br>
+---
+
+有关js的系统学习，请参考：
 
 [JavaScript语言精粹（修订版）](https://evanli.github.io/programming-book-2/JavaScript/JavaScript%E8%AF%AD%E8%A8%80%E7%B2%BE%E7%B2%B9%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89.pdf) 在线PDF电子书
 

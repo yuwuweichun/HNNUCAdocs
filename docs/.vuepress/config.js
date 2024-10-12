@@ -15,7 +15,7 @@ export default defineUserConfig({
 
     // navbar 导航栏
     navbar: [
-      
+      {text: 'GitHub', link:'https://github.com/yuwuweichun/HNNUCAdocs'},
     ],
     // sidebar 侧边栏
     sidebar: [
@@ -26,7 +26,7 @@ export default defineUserConfig({
       {text: '你的网站是什么样子', link: '/look_like'},
       {text: '你的第一个网站', link: '/your_first_site.md'},
       {text: '部署', link: '/publishing.md'},
-      {text: '进一步的学习', link: '/further.md'}
+      {text: '进一步的学习', link: '/further.md'},
     ]
 
   }),
