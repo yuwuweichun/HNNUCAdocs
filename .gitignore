@@ -1,0 +1,12 @@
+# Node.js 依赖
+/node_modules
+
+# 构建产物
+/docs/.vuepress/dist
+
+# 临时文件
+*.temp
+
+# Editor 配置文件
+.vscode/
+
