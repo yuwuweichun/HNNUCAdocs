@@ -16,7 +16,7 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-CZX7GLWV.js";
+} from "./chunk-L2JNJ22P.js";
 
 // node_modules/vue-router/node_modules/@vue/devtools-api/lib/esm/env.js
 function getDevtoolsGlobalHook() {
