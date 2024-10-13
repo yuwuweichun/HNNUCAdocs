@@ -3,7 +3,7 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  base:'/HNNUCAdocs',
+  base:'/HNNUCAdocs/',
 
   lang: 'zh-CN',
 
