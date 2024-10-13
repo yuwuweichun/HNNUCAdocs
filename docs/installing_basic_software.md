@@ -44,19 +44,4 @@
 > 视频教程：[bilibili VSCode安装及配置](https://www.bilibili.com/video/BV1BQ4y1j7fY/?spm_id_from=333.337.search-card.all.click)
 [bilibili VSCode前端扩展推荐](https://www.bilibili.com/video/BV1kb4y1y7zr/?spm_id_from=333.337.search-card.all.click)
 
-<script src="https://giscus.app/client.js"
-        data-repo="yuwuweichun/HNNUCAdocs"
-        data-repo-id="R_kgDOM-_Z-Q"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOM-_Z-c4CjUMl"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
+

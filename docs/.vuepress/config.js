@@ -1,6 +1,7 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { commentPlugin } from '@vuepress/plugin-comment'
 
 export default defineUserConfig({
   base:'/HNNUCAdocs/',
@@ -31,5 +32,22 @@ export default defineUserConfig({
 
   }),
 
+  plugins: [
+      commentPlugin({
+      provider: 'Giscus',
+      repo: 'yuwuweichun/HNNUCAdocs', // GitHub 仓库
+      repoId: 'R_kgDOM-_Z-Q', // 仓库 ID
+      category: 'Announcements', // 分类
+      categoryId: 'DIC_kwDOM-_Z-c4CjUMl', // 分类 ID
+      mapping: 'pathname', // 映射策略
+      strict: false, // 是否严格匹配 URL
+      reactionsEnabled: true, // 是否启用反应
+      emitMetadata: false, // 是否发出元数据
+      inputPosition: 'top', // 输入框位置
+      theme: 'preferred_color_scheme', // 主题
+      lang: 'zh-CN', // 语言
+      loading: 'lazy', // 延迟加载
+      })
+  ],
   bundler: viteBundler(),
 })

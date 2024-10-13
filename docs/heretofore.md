@@ -39,19 +39,4 @@
 
 [编程自学之路](https://www.r2coding.com/#/README) B站UP主CodeSheep做的编程自学网站
 
-<script src="https://giscus.app/client.js"
-        data-repo="yuwuweichun/HNNUCAdocs"
-        data-repo-id="R_kgDOM-_Z-Q"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOM-_Z-c4CjUMl"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
+
