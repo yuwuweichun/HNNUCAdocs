@@ -45,4 +45,4 @@
 - .......
 :::
 
-<div id="giscus"></div>
+<div class="giscus"></div>

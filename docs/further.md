@@ -4,4 +4,4 @@
 此页面待更新
 :::
 
-<div id="giscus"></div>
+<div class="giscus"></div>

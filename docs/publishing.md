@@ -14,8 +14,6 @@
 此页面待更新
 :::
 
-
-
 > 参考 [GitHubDocs](https://docs.github.com/zh/pages/getting-started-with-github-pages)
 
-<div id="giscus"></div>
+<div class="giscus"></div>
