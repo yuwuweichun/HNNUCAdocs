@@ -20,6 +20,8 @@
 以下是一个拙劣的示例：[混沌武士](https://yuwuweichun.github.io/samurai_champloo/)<br>
 你可以前往[GitHub仓库页](https://github.com/yuwuweichun/samurai_champloo)下载源代码，对其进行改写，直至整个页面变成你想要的样子。
 
+## 个人网站
+
 ## H5小游戏
 *默认你已经对JavaScript有一定的了解。如你还未了解请前往*<br>
 [JavaScript基础](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
@@ -29,20 +31,6 @@
 你或许可以试着开发一个H5小游戏，以下是一个经典的H5小游戏示例：[Chrome Dino](https://dinosaur.game/zh/)<br>
 简介：Google恐龙游戏，也被称为Chrome Dino游戏，玩家控制一个像素化的T-Rex在沙漠中奔跑，跳过仙人掌并在翼龙下蹲伏以避免碰撞。凭借简单的控制和不断增加的难度，这款游戏提供了一种怀旧且引人入胜的体验，让玩家努力争取更高的分数......<br>
 
-
-
-> 不知道如何开始？
-
-以下是一个拙劣的仿制版本，仅支持PC端，你可以单击[平泽唯跑酷](https://yuwuweichun.github.io/parkour1.0)在线游玩<br>
-你可以前往[GitHub仓库页](https://github.com/yuwuweichun/parkour1.0)下载源代码。
-
-::: tip
-你可以做哪些修改：
-- 将角色形象换成你喜欢的角色？
-- 角色在空中可以滑翔？
-- 添加背景音乐？
-- 实现移动端适配？
-- .......
-:::
+> 开发完成之后，你可以使用Electron进行打包，你也许可以参考[平泽唯跑酷](https://github.com/yuwuweichun/YuiParkour)
 
 <CommentService />
