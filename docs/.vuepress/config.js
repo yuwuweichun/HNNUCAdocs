@@ -37,7 +37,7 @@ export default defineUserConfig({
         text: 'Community',
         children: [
           { text: '头歌复制助手', link: '/copy_helper.md' },
-          { text: '南平四日游', link: '/nan_ping.md' },
+          
         ]
       }
     ]
