@@ -39,6 +39,12 @@ export default defineUserConfig({
           { text: '头歌复制助手', link: '/copy_helper.md' },
           
         ]
+      },
+      {
+        text: 'SurviveHNNUManual',
+        children: [
+          { text: '体育选课不完全指北', link: 'PE_select.md'}
+        ]
       }
     ]
 
