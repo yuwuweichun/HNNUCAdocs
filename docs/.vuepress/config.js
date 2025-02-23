@@ -20,10 +20,10 @@ export default defineUserConfig({
     ],
     // sidebar 侧边栏
     sidebar: [
+      { text: 'Welcome', link: '/' },
       {
         text: 'Tutorials',
         children: [
-          { text: 'Welcome!', link: '/' },
           { text: '在此之前', link: '/heretofore.md' },
           { text: '安装基本的软件', link: '/installing_basic_software.md' },
           { text: 'BetterCoding', link: '/better_coding.md' },
