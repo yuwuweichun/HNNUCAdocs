@@ -2,6 +2,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { commentPlugin } from '@vuepress/plugin-comment'
+import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
 
 export default defineUserConfig({
   base: '/HNNUCAdocs/',
@@ -37,16 +38,16 @@ export default defineUserConfig({
         text: 'Community',
         children: [
           { text: '头歌复制助手', link: '/copy_helper.md' },
-          
+          { text: '波老师的numpy教学', link: '/numpy.md' },
         ]
       },
       {
         text: 'SurviveHNNUManual',
         children: [
-          { text: '体育选课不完全指北', link: 'PE_select.md'}
+          { text: '体育选课不完全指北', link: 'PE_select.md' }
         ]
       }
-    ]
+    ] 
 
   }),
 
@@ -66,6 +67,23 @@ export default defineUserConfig({
       theme: 'preferred_color_scheme', // 主题
       lang: 'zh-CN', // 语言
       loading: 'eager', // 延迟加载：否
+    }),
+    markdownMathPlugin({
+      mathjax: {
+        loader: {
+          load: ['input/tex', 'output/svg']
+        },
+        options: {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            packages: ['base', 'ams', 'amsmath', 'amssymb', 'esint', 'newcommand']
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        }
+      }
     })
   ],
   bundler: viteBundler(),
